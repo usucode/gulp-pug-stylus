@@ -1,0 +1,9 @@
+include mixins/_scripts
+include mixins/_head
+doctype html
+html(lang="ja")
+  +head("css/style.css")
+  body
+    h1 Hello from Pug
+    .box(draggable="true")
+    +scripts
